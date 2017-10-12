@@ -26,6 +26,11 @@ app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept"); next();
 });
 
+// Set up a URL route
+app.get("/", function (req, res) {
+  res.send("Heroku Demo!");
+});
+
 
 var routes = require('./api/routes/route'); //importing route
 routes(app); //register the route
