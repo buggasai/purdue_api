@@ -2,16 +2,11 @@
   "name": "purdue_api",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ravindra",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.12.1"
-  },
   "dependencies": {
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
