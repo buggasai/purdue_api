@@ -38,4 +38,4 @@ routes(app); //register the route
 
 app.listen(port);
 
-console.log('Purdue list RESTful API server started on: ' + port);
+console.log('Purdue list RESTful API server started on: ' + port); //comment
